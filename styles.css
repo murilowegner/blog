@@ -1,0 +1,12 @@
+nav{
+    background-color: rgb(149, 149, 255);
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    margin: 0;
+    height:150VH;
+}
