@@ -14,30 +14,61 @@
     <nav>
         <div class="nav-container">
             <a href="#home">Home</a>
-            <a href="#detalhes">Detalhes</a>
-            <a href="#faq">FAQ</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#detalhes">Destaques</a>
+            <a href="#faq">FAQ & Contato</a>
         </div>
     </nav>
 
     <main class="container">
+        <!-- Hero Section -->
         <header id="home" class="hero">
             <h1>Murilo_W</h1>
-            <p class="subtitle">Bem-vindo ao meu portfólio online</p>
+            <p class="subtitle">Desenvolvedor Full Stack & Especialista em Automações com IA</p>
         </header>
 
-        <section id="detalhes" class="gallery">
-            <div class="card">
-                <img id="dantefocus" src="dante.jpg" alt="Foto do Dante">
-                <div class="card-info"><h3>Dante</h3></div>
-            </div>
-            <div class="card">
-                <img id="vergilfocus" src="vergil.webp" alt="I am the storm that is approaching">
-                <div class="card-info"><h3>Vergil</h3></div>
+        <!-- Nova Seção: Sobre Mim -->
+        <section id="sobre" class="about-section">
+            <h2>Sobre Mim</h2>
+            <p>Sou um desenvolvedor focado em criar soluções digitais modernas, conectar APIs e automatizar fluxos de trabalho inteligentes. Combinando design limpo e código eficiente, transformo ideias complexas em plataformas acessíveis.</p>
+        </section>
+
+        <!-- Nova Seção: Habilidades Técnicas -->
+        <section id="habilidades" class="skills-section">
+            <h2>Habilidades & Tecnologias</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">HTML5 / CSS3</div>
+                <div class="skill-tag">JavaScript (ES6+)</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">Integração de APIs</div>
+                <div class="skill-tag">Automação (n8n)</div>
+                <div class="skill-tag">Engenharia de Prompt</div>
             </div>
         </section>
 
+        <!-- Galeria / Projetos -->
+        <section id="detalhes" class="gallery">
+            <h2>Projetos em Destaque</h2>
+            <div class="card">
+                <img id="dantefocus" src="dante.jpg" alt="Foto do Dante">
+                <div class="card-info">
+                    <h3>Módulo Dante</h3>
+                    <p>Interface responsiva focada em alta performance e estilização avançada com CSS Grid.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img id="vergilfocus" src="vergil.webp" alt="I am the storm that is approaching">
+                <div class="card-info">
+                    <h3>Módulo Vergil</h3>
+                    <p>Integração de Webhooks assíncronos e renderização de respostas Markdown em tempo real.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato & FAQ -->
         <section id="faq" class="contact-section">
-            <h2>Contato & FAQ</h2>
+            <h2>IA Generativa</h2>
             <form id="meu-form">
                 <div class="input-group">
                     <label for="email">Digite seu email</label>
